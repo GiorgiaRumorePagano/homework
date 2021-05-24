@@ -1,0 +1,243 @@
+a:hover {
+    cursor: pointer;
+}
+
+body {
+    margin: 0px; 
+}
+
+header {
+    background-image: url(https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    margin: 0px;
+    position: relative;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#overlay{
+    background-color: rgba(0 , 0, 0, 0.3);
+    position: absolute;
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+}
+
+header nav {
+    font-size:  1.5em;
+    padding: 0px 5px; 
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+  
+#logo {
+    font-size: 1.5em;
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+}
+   
+#menu {
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase; 
+    margin: 0px;
+}
+  
+#menu a {
+    margin-left: 15px;
+    color: white;
+    text-decoration-line: none;
+}
+  
+#menu a:hover{
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+
+header h1  {
+    text-align: center;
+    margin-bottom: 200px; 
+    font-family: "Roboto", sans-serif;
+    font-style: oblique;
+    font-size: 5em;
+    letter-spacing: 30px;
+    z-index: 1;
+    text-transform: uppercase;
+}
+
+
+#ham {
+    display: none;
+} 
+
+#ham div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0px;
+}
+
+#op h1 {
+    font-family: "Lato", sans-serif;
+    font-size: 5em;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+#footer1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(34,36,36);
+  color: white;
+  width: 100%;
+  height: 200px;
+}
+
+#logofooter {
+  font-size: 3em;
+  font-family: "Quicksand", sans-serif;  
+}
+
+#socialfooter {
+  font-family: "Poppins",sans-serif;
+  font-size: 1.4em;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+}
+
+footer img {
+  height: 50px;
+  width: 50px;
+}
+
+
+#exit{
+  font-size: .7em;
+  font-family: "Poppins", sans-serif ;
+}
+
+#exit a{
+    color: white;
+}
+
+
+#exit a:hover{
+  text-decoration: underline;
+}
+
+#op .hidden{
+    display: none;
+}
+
+.operazioni {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 55px;
+}
+
+.operazioni h3:hover {
+    text-decoration: underline;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#op span {
+    white-space: pre-line;
+}
+
+#operazione-2 input {
+    width: 200px;
+    align-self: center;
+}
+
+#operazione-2 button {
+    background-color: rgb(255,211,0);
+    color: black;
+    border-radius: 100px;
+    border-color: rgb(255,211,0);
+}
+
+#operazione-2 button:hover {
+    font-weight: bolder;
+}
+
+#operazione-3 form {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-self: center;
+}
+
+#operazione-3 input {
+    margin: 10px;
+}
+
+#operazione-3 select {
+    margin: 10px;
+}
+
+#operazione-3 button {
+    background-color: rgb(255,211,0);
+    color: black;
+    border-radius: 100px;
+    border-color: rgb(255,211,0);
+}
+
+#operazione-3 button:hover {
+    font-weight: bolder;
+}
+
+#risultati {
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+}
+
+#risultati span {
+    margin: 15px;
+}
+
+#risultati span:hover {
+        cursor: pointer;
+}
+
+#ricerca h1{
+    font-family: "Lato", sans-serif;
+    font-size: 5em;
+    text-align: center;
+}
+
+#ricerca  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+#ricerca div {
+    margin: 30px;
+}
+
+table td {
+    padding: 10px;
+}
+
+table tr{
+    font-size: .8em;
+}
+
+
